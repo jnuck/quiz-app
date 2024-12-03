@@ -14,11 +14,25 @@
   border: 3px solid var(--color-black);
   border-radius: 10px;
   background-color: var(--color-white);
+  position: relative;
 }
 
 .card__title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__question {
   font-size: 28px;
   margin-bottom: 25%;
+  width: 90%;
+}
+
+.card__bookmark {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  scale: 150%;
 }
 
 .card__toggle-answer {
