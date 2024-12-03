@@ -1,0 +1,12 @@
+.title {
+  color: var(--color-saffron);
+  background-color: var(--color-black);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Roboto";
+  padding: 1rem;
+}
