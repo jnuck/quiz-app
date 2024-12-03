@@ -1,0 +1,55 @@
+.card__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border: 1px solid var(--color-black);
+  margin: 36px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border: 3px solid var(--color-black);
+  border-radius: 10px;
+  background-color: var(--color-white);
+}
+
+.card__title {
+  font-size: 28px;
+  margin-bottom: 25%;
+}
+
+.card__toggle-answer {
+  padding: 6px;
+  width: 40%;
+  background-color: var(--color-saffron);
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.card__toggle-answer:hover {
+  background-color: var(--color-jasmine);
+}
+
+.tag__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: var(--color-white);
+  align-self: flex-start;
+}
+
+.tag {
+  background-color: var(--color-jet);
+  padding: 5px;
+  border-radius: 5px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 12px;
+  cursor: pointer;
+}
