@@ -1,10 +1,10 @@
 .profile {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  height: 90vh;
 }
 
 .profile__section {
@@ -13,7 +13,6 @@
   align-items: center;
   justify-content: space-around;
   margin: 2rem;
-  gap: 3rem;
 }
 
 .profile__name {
