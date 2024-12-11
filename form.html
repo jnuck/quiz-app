@@ -12,7 +12,37 @@
       <h1>Quiz App</h1>
     </header>
     <main>
-      <div class="card__container"></div>
+      <div class="form__container">
+        <form class="form" data-js="form" action="">
+          <label for="form__question" class="form__label"
+            >Enter question:</label
+          >
+          <textarea
+            id="form__question"
+            class="form__input form__question"
+            data-js="form-question"
+          ></textarea>
+
+          <label for="form__answer">Enter answer:</label>
+          <textarea
+            id="form__answer"
+            class="form__input form__answer"
+            data-js="form-answer"
+          ></textarea>
+
+          <label for="form__tag">Enter tag:</label>
+          <input
+            type="text"
+            id="form__tag"
+            class="form__input form__tag"
+            data-js="form-tag"
+          />
+
+          <button type="submit" class="form__button" data-js="form-button">
+            Add
+          </button>
+        </form>
+      </div>
     </main>
     <nav class="navbar">
       <a href="index.html">
@@ -43,7 +73,7 @@
           height="24"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="#f5cb5c"
+          stroke="white"
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -60,7 +90,7 @@
           height="24"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="white"
+          stroke="#f5cb5c"
           stroke-width="3"
           stroke-linecap="round"
           stroke-linejoin="round"
