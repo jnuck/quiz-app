@@ -26,7 +26,7 @@
 
 .card__question {
   font-size: 28px;
-  margin-bottom: 25%;
+  margin-bottom: 10%;
   width: 90%;
 }
 
@@ -74,4 +74,13 @@
   font-weight: 300;
   font-size: 12px;
   cursor: pointer;
+}
+
+.card__answer {
+  font-size: 1rem;
+}
+
+.card__answer-hidden {
+  color: transparent;
+  text-shadow: 0 0 7.5px rgba(0, 0, 0, 0.5);
 }
