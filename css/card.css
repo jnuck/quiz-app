@@ -36,6 +36,11 @@
   top: 10px;
   scale: 150%;
   cursor: pointer;
+  fill: none;
+}
+
+.card__bookmark-checked {
+  fill: var(--color-black);
 }
 
 .card__toggle-answer {
