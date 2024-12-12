@@ -91,3 +91,22 @@ form.addEventListener("submit", (event) => {
   // Test if the button works
   console.log("click");
 });
+
+// Build character counter for question and answer inputs
+const newQuestionInput = document.querySelector('[data-js="form-question"]');
+const newAnswerInput = document.querySelector('[data-js="form-answer"]');
+
+const questionChars = document.querySelector('[data-js="question-chars"]');
+const answerChars = document.querySelector('[data-js="answer-chars"]');
+
+newQuestionInput.addEventListener("input", (event) => {
+  questionChars.innerText = `${
+    150 - event.target.value.length
+  } characters remaining`;
+});
+
+newAnswerInput.addEventListener("input", (event) => {
+  answerChars.innerText = `${
+    150 - event.target.value.length
+  } characters remaining`;
+});
