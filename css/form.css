@@ -1,3 +1,8 @@
+.form__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .form__container {
   margin-top: 50%;
 }
@@ -13,7 +18,6 @@
   border-radius: 8px;
   padding: 10px;
 }
-
 .form__question {
   height: 5rem;
   width: 20rem;

@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="./js/index.js" defer></script>
+    <script src="./js/form.js" defer></script>
   </head>
   <body>
     <header class="title">
       <h1>Quiz App</h1>
     </header>
-    <main>
+    <main class="form__wrapper" data-js="form-wrapper">
       <div class="form__container">
         <form class="form" data-js="form" action="">
           <label for="form__question" class="form__label"
@@ -21,6 +21,7 @@
             id="form__question"
             class="form__input form__question"
             data-js="form-question"
+            required
           ></textarea>
 
           <label for="form__answer">Enter answer:</label>
@@ -28,6 +29,7 @@
             id="form__answer"
             class="form__input form__answer"
             data-js="form-answer"
+            required
           ></textarea>
 
           <label for="form__tag">Enter tag:</label>
@@ -36,6 +38,7 @@
             id="form__tag"
             class="form__input form__tag"
             data-js="form-tag"
+            required
           />
 
           <button type="submit" class="form__button" data-js="form-button">
