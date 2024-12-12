@@ -4,7 +4,7 @@
 }
 
 .form__container {
-  margin-top: 50%;
+  margin-top: 25%;
 }
 
 .form {
@@ -41,4 +41,8 @@
 
 .form__button:hover {
   background-color: var(--color-jasmine);
+}
+
+.form__chars {
+  font-size: 0.75rem;
 }
