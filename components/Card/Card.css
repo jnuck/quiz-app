@@ -13,10 +13,16 @@
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  border: 3px solid var(--color-black);
-  border-radius: 10px;
-  background-color: var(--color-white);
+  border: 0px solid var(--color-black);
+  border-radius: 28px;
+  background: linear-gradient(
+    90deg,
+    rgba(235, 152, 74, 0.9) 0%,
+    rgba(229, 156, 116, 0.9) 50%,
+    rgba(252, 176, 69, 0.9) 100%
+  );
   position: relative;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .card__title {
@@ -25,18 +31,19 @@
 }
 
 .card__question {
-  font-size: 28px;
+  font-size: 36px;
   margin-bottom: 10%;
   width: 90%;
 }
 
 .card__bookmark {
   position: absolute;
-  right: 10px;
-  top: 10px;
-  scale: 150%;
+  right: 26px;
+  top: 25px;
+  scale: 175%;
   cursor: pointer;
   fill: none;
+  stroke-width: 1px;
 }
 
 .card__bookmark-checked {
@@ -44,10 +51,10 @@
 }
 
 .card__toggle-answer {
-  padding: 6px;
-  width: 40%;
+  padding: 10px;
+  width: auto;
   background-color: var(--color-saffron);
-  border-radius: 5px;
+  border-radius: 20px;
   margin: 10px;
   font-size: 16px;
   font-weight: 600;
@@ -78,6 +85,7 @@
 
 .card__answer {
   font-size: 1rem;
+  text-shadow: 0 0 7.5px rgba(0, 0, 0, 0.5);
 }
 
 .card__answer-hidden {

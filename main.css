@@ -5,8 +5,8 @@
 @import "./components/Switch/Switch.css";
 @import "./components/Title/Title.css";
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 *,
 *:before,
 *:after {
@@ -16,12 +16,12 @@
 }
 
 :root {
-  --color-white: #fff;
-  --color-alabaster: #e8eddf;
-  --color-saffron: #f5cb5c;
-  --color-jasmine: #f6d579;
-  --color-black: #242423;
-  --color-jet: #333533;
+  --color-white: #f6f6f6;
+  --color-white2: #e8e8e8;
+  --color-saffron: #ffa340;
+  --color-jasmine: #ffa340;
+  --color-black: #030027;
+  --color-jet: #02111d;
 }
 
 body {
@@ -30,5 +30,6 @@ body {
   align-items: center;
   font-family: "Roboto", sans-serif;
   width: 100%;
-  background-color: var(--color-alabaster);
+  background-color: var(--color-white);
+  font-family: "Outfit";
 }

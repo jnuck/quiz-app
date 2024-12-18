@@ -1,6 +1,5 @@
 .title {
-  color: var(--color-saffron);
-  background-color: var(--color-black);
+  color: var(--color-jet);
   width: 100vw;
   height: 50px;
   display: flex;
@@ -8,4 +7,7 @@
   position: fixed;
   top: 0;
   z-index: 10;
+  background-color: var(--color-white);
+  font-size: 18px;
+  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.2);
 }
