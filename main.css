@@ -1,0 +1,35 @@
+@import "./components/Card/Card.css";
+@import "./components/Form/Form.css";
+@import "./components/Navbar/Navbar.css";
+@import "./components/Profile/Profile.css";
+@import "./components/Switch/Switch.css";
+@import "./components/Title/Title.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color-white: #f6f6f6;
+  --color-white2: #e8e8e8;
+  --color-saffron: #ffa340;
+  --color-jasmine: #ffa340;
+  --color-black: #030027;
+  --color-jet: #02111d;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  background-color: var(--color-white);
+  font-family: "Outfit";
+}
